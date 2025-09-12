@@ -1,11 +1,17 @@
 <script setup lang="ts">
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import PromoComponent from '@/components/PromoComponent.vue';
 </script>
 
 <template>
-<HeaderComponent />
+  <div class="header-wrap">
+    <HeaderComponent />
+    <PromoComponent />
+  </div>
 </template>
 
 <style scoped>
-
+.header-wrap {
+  background-image: url("/images/header-bg-mobile.jpg");
+}
 </style>
