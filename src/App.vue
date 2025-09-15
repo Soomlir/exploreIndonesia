@@ -3,6 +3,9 @@ import HeaderComponent from '@/components/HeaderComponent.vue';
 import PromoComponent from '@/components/PromoComponent.vue';
 import FeaturesComponent from '@/components/FeaturesComponent.vue';
 import SecretsComponent from '@/components/SecretsComponent.vue';
+import NatureComponent from '@/components/NatureComponent.vue';
+import VideosComponent from '@/components/VideosComponent.vue';
+import GalleryComponent from '@/components/GalleryComponent.vue';
 </script>
 
 <template>
@@ -12,6 +15,9 @@ import SecretsComponent from '@/components/SecretsComponent.vue';
   </div>
   <FeaturesComponent />
   <SecretsComponent />
+  <NatureComponent />
+  <VideosComponent />
+  <GalleryComponent />
 </template>
 
 <style scoped>

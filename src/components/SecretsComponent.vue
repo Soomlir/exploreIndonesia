@@ -33,6 +33,28 @@
         </button>
       </ul>
     </div>
+    <div class="secrets__stats stats">
+      <h3 class="stats__heading">By The Numbers</h3>
+      <p class="stats__text">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.
+        Fusce <br> commodo magna et libero.Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.</p>
+      <ul class="stats__list">
+        <li class="stats__item">
+          <span class="stats__number">100+</span>
+          <p class="stats__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et
+            libero.</p>
+        </li>
+        <li class="stats__item">
+          <span class="stats__number">43,000+</span>
+          <p class="stats__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+        </li>
+        <li class="stats__item">
+          <span class="stats__number">30+</span>
+          <p class="stats__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et
+            libero.</p>
+        </li>
+      </ul>
+    </div>
   </section>
 </template>
 <style lang="scss">
@@ -103,5 +125,65 @@
     background-color: #dd2242;
     border-radius: 60px;
   }
+}
+
+.stats {
+  padding: 43px 30px 69px;
+}
+
+.stats__heading {
+  width: 180px;
+  margin: 0 auto;
+  margin-bottom: 37px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 46px;
+  font-family: "DM Sans", "Arial", sans-serif;
+  color: #ffffff;
+}
+
+.stats__text {
+  margin-bottom: 61px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "DM Sans", "Arial", sans-serif;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.stats__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.stats__item {
+  margin-bottom: 80px;
+
+  &:nth-child(2) {
+    margin-bottom: 40px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.stats__number {
+  display: block;
+  margin-bottom: 8px;
+  color: #dd2242;
+  font-family: "DM Sans", "Arial", sans-serif;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 700;
+}
+
+.stats__description {
+  color: #e0e0e0;
+  font-family: "DM Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
 }
 </style>
