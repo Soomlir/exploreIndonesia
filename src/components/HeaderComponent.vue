@@ -1,4 +1,4 @@
-<script></script>
+<script setup></script>
 
 <template>
   <header class="header">
@@ -17,45 +17,33 @@
 </template>
 
 <style lang="scss">
-body {
-	margin: 0;
-	font-family: "Roboto", "Arial", sans-serif;
-	font-size: 13px;
-	line-height: 20px;
-	font-weight: 400;
-}
-
-.visually-hidden {
-	position: fixed;
-	transform: scale(0);
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-h1,
-h2,
-h3 {
-	margin: 0;
-}
-
-p {
-	margin: 0;
-}
-
 .header {
   display: flex;
-  padding: 48px 0 15px;
+  padding: 48px 34px 24px 24px;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__search {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 36px;
+  background-image: url('/images/search.svg');
 }
 
 .header__gamburger {
+  margin-top: 14px;
+  cursor: pointer;
+
   span {
     display: block;
     width: 18px;
     height: 2px;
+    margin-bottom: 3px;
     background-color: #ffffff;
   }
 }

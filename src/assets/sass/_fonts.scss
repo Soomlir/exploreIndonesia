@@ -1,0 +1,15 @@
+@mixin font-face($family, $filename, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $family;
+    src: url("../fonts/#{$filename}.woff2") format("woff2");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@include font-face("Roboto", "roboto-regular", 400);
+@include font-face("Roboto", "roboto-bold", 700);
+@include font-face("Roboto", "roboto-black", 900);
+@include font-face("DM Sans", "dmsans-regular", 400);
+@include font-face("DM Sans", "dmsans-bold", 700);

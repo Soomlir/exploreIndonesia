@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import HeaderComponent from '@/components/HeaderComponent.vue';
 import PromoComponent from '@/components/PromoComponent.vue';
+import FeaturesComponent from '@/components/FeaturesComponent.vue';
+import SecretsComponent from '@/components/SecretsComponent.vue';
 </script>
 
 <template>
@@ -8,6 +10,8 @@ import PromoComponent from '@/components/PromoComponent.vue';
     <HeaderComponent />
     <PromoComponent />
   </div>
+  <FeaturesComponent />
+  <SecretsComponent />
 </template>
 
 <style scoped>
