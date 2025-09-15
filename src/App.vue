@@ -6,6 +6,8 @@ import SecretsComponent from '@/components/SecretsComponent.vue';
 import NatureComponent from '@/components/NatureComponent.vue';
 import VideosComponent from '@/components/VideosComponent.vue';
 import GalleryComponent from '@/components/GalleryComponent.vue';
+import PlanComponent from '@/components/PlanComponent.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
 </script>
 
 <template>
@@ -18,6 +20,8 @@ import GalleryComponent from '@/components/GalleryComponent.vue';
   <NatureComponent />
   <VideosComponent />
   <GalleryComponent />
+  <PlanComponent />
+  <FooterComponent />
 </template>
 
 <style scoped>

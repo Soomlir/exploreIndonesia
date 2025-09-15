@@ -32,8 +32,7 @@
 
 <style lang="scss">
 .gallery {
-  padding: 0 30px;
-  padding-top: 35px;
+  padding: 35px 30px 40px;
 }
 
 .gallery__heading {
