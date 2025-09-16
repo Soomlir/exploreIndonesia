@@ -24,8 +24,12 @@ import FooterComponent from '@/components/FooterComponent.vue';
   <FooterComponent />
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .header-wrap {
   background-image: url("/images/header-bg-mobile.jpg");
+
+  @media (min-width: 1920px) {
+    background-image: url("/images/header-bg-desktop.jpg");
+  }
 }
 </style>

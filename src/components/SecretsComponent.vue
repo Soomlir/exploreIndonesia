@@ -61,6 +61,10 @@
 .secrets {
   padding-top: 35px;
   background-image: url("/images/secrets-bg-mobile.jpg");
+
+  @media (min-width: 1920px) {
+    background-image: url("/images/secrets-bg-desktop.jpg");
+  }
 }
 
 .secrets__heading {
