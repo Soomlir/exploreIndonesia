@@ -39,6 +39,10 @@
 .plan {
   padding: 30px 30px 81px;
   background-color: #dce8f2;
+
+  @media (min-width: 1920px) {
+    padding: 130px 353px 81px;
+  }
 }
 
 .plan__description {
@@ -49,6 +53,13 @@
   font-family: "DM Sans", "Arial", sans-serif;
   font-weight: 700;
   text-align: center;
+
+  @media (min-width: 1920px) {
+    text-align: left;
+    margin-left: 36px;
+    font-size: 59px;
+    line-height: 53px;
+  }
 }
 
 .plan__list {
