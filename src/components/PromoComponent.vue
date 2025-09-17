@@ -38,7 +38,7 @@
 
 <style lang="scss">
 .promo {
-  padding: 17px 0 40px 30px;
+  padding: 17px 0 38px 30px;
 
   @media (min-width: 1920px) {
     padding-top: 121px;
@@ -73,6 +73,7 @@
 }
 
 .promo__button {
+  margin-left: 0;
   margin-bottom: 54px;
 
   @media (min-width: 1920px) {
@@ -147,10 +148,12 @@
 .promo__list {
   display: flex;
   flex-direction: column;
+  width: 315px;
   gap: 58px;
   padding: 59px 33px 31px;
   background-color: rgba(0, 0, 0, 0.6);
   counter-reset: my-counter;
+  box-sizing: border-box;
 
   @media (min-width: 1920px) {
     flex-direction: row;
@@ -209,6 +212,7 @@
 .promo__video {
   position: relative;
   display: flex;
+  width: 315px;
 
   &::before {
     content: "";
@@ -229,10 +233,12 @@
     height: 33px;
     inset: 0;
     margin: auto;
-    background-image: url('/images/play.svg');
+    background-image: url('../images/play.svg');
   }
 
   @media (min-width: 1920px) {
+    width: 418px;
+
     &::before {
       width: 78px;
       height: 78px;
@@ -241,7 +247,9 @@
 }
 
 .promo__video-img {
-  width: 418px;
-  height: 254px;
+  @media (min-width: 1920px) {
+    width: 418px;
+    height: 254px;
+  }
 }
 </style>

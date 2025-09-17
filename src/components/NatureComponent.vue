@@ -13,11 +13,11 @@
 <style lang="scss">
 .nature {
   padding: 171px 30px 116px;
-  background-image: url("/images/nature-bg-mobile.jpg");
+  background-image: url("../images/nature-bg-mobile.jpg");
 
   @media (min-width: 1920px) {
     padding: 249px 30px 257px;
-    background-image: url("/images/nature-bg-desktop.jpg");
+    background-image: url("../images/nature-bg-desktop.jpg");
   }
 }
 

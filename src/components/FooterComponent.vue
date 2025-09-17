@@ -5,7 +5,7 @@
     <a class="footer__arrow" href="#!">
       <span class="visually-hidden">Прокрутить в самое начало.</span>
     </a>
-    <a href="#!">
+    <a class="footer__logo" href="#!">
       <img src="/images/footer-logo-mobile.svg" width="174" height="66" alt="Наш логотип.">
     </a>
     <ul class="footer__list">
@@ -40,6 +40,11 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+
+  @media (min-width: 1920px) {
+    flex-direction: row;
+    padding: 36px 153px 31px 70px;
+  }
 }
 
 .footer__arrow {
@@ -47,7 +52,6 @@
   display: flex;
   top: -41px;
   left: 135px;
-  display: block;
   width: 104px;
   height: 104px;
   border-radius: 50%;
@@ -61,17 +65,34 @@
     height: 22px;
     inset: 0;
     margin: auto;
-    background-image: url("/images/arrow-up-mobile.svg");
+    background-image: url("../images/arrow-up-mobile.svg");
+  }
+
+  @media (min-width: 1920px) {
+    top: -52px;
+    right: 102px;
+    display: none;
+  }
+}
+
+.footer__logo {
+  @media (min-width: 1920px) {
+    margin-right: 123px;
   }
 }
 
 .footer__list {
-  margin-top: 29px;
-  margin-bottom: 35px;
+  margin: 29px 30px 35px;
   display: flex;
   flex-direction: column;
   gap: 36px;
   text-align: center;
+
+  @media (min-width: 1920px) {
+    flex-direction: row;
+    margin: 0;
+    margin-right: auto;
+  }
 }
 
 .footer__link {
@@ -81,12 +102,24 @@
   font-family: "DM Sans", "Arial", sans-serif;
   text-decoration: none;
   color: #ffffff;
+
+  @media (min-width: 1920px) {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
 }
 
 .footer__social-list {
   display: flex;
   gap: 49px;
   margin-bottom: 36px;
+
+  @media (min-width: 1920px) {
+    margin-right: 48px;
+    margin-bottom: 0;
+    gap: 15px;
+  }
 }
 
 .footer__social-link {
@@ -95,15 +128,15 @@
   height: 31px;
 
   &--facebook {
-    background-image: url("/images/facebook-mobile.svg");
+    background-image: url("../images/facebook-mobile.svg");
   }
 
   &--linkedin {
-    background-image: url("/images/linkedin-mobile.svg");
+    background-image: url("../images/linkedin-mobile.svg");
   }
 
   &--google {
-    background-image: url("/images/google-mobile.svg");
+    background-image: url("../images/google-mobile.svg");
   }
 }
 
@@ -115,5 +148,12 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
+
+  @media (min-width: 1920px) {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
 }
 </style>

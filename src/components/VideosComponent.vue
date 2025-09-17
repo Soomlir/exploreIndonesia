@@ -41,11 +41,11 @@
 <style lang="scss">
 .videos {
   padding: 86px 30px 36px;
-  background-image: url("/images/videos-bg-mobile.jpg");
+  background-image: url("../images/videos-bg-mobile.jpg");
 
   @media (min-width: 1920px) {
     padding: 146px 30px 221px;
-    background-image: url("/images/videos-bg-desktop.jpg");
+    background-image: url("../images/videos-bg-desktop.jpg");
   }
 }
 
@@ -92,7 +92,7 @@
     height: 16px;
     inset: 0;
     margin: auto;
-    background-image: url("/images/play-white.svg");
+    background-image: url("../images/play-white.svg");
     background-repeat: no-repeat;
   }
 
@@ -143,7 +143,7 @@
     height: 16px;
     top: 79px;
     left: 152px;
-    background-image: url("/images/play-white.svg");
+    background-image: url("../images/play-white.svg");
   }
 
   @media (min-width: 1920px) {

@@ -50,8 +50,12 @@
 }
 
 .header__logo-img {
-  width: 185px;
-  height: 68px;
+  width: 149px;
+
+  @media (min-width: 1920px) {
+    width: 185px;
+    height: 68px;
+  }
 }
 
 .header__menu {
@@ -82,7 +86,7 @@
   height: 20px;
   margin-top: 10px;
   margin-right: 36px;
-  background-image: url('/images/search.svg');
+  background-image: url('../images/search.svg');
 
   @media (min-width: 1920px) {
     margin-top: 15px;

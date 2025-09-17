@@ -76,11 +76,11 @@
 <style lang="scss">
 .secrets {
   padding-top: 35px;
-  background-image: url("/images/secrets-bg-mobile.jpg");
+  background-image: url("../images/secrets-bg-mobile.jpg");
 
   @media (min-width: 1920px) {
     padding-top: 126px;
-    background-image: url("/images/secrets-bg-desktop.jpg");
+    background-image: url("../images/secrets-bg-desktop.jpg");
   }
 }
 
@@ -134,14 +134,14 @@
   height: 20px;
   border: none;
   background: none;
-  background-image: url('/images/arrow-left-mobile.svg');
+  background-image: url('../images/arrow-left-mobile.svg');
   background-repeat: no-repeat;
   cursor: pointer;
 
   @media (min-width: 1920px) {
     width: 15px;
     height: 24px;
-    background-image: url('/images/arrow-left-desktop.svg');
+    background-image: url('../images/arrow-left-desktop.svg');
   }
 }
 

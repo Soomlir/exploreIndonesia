@@ -38,11 +38,11 @@
 <style lang="scss">
 .features {
   padding: 40px 30px 48px;
-  background-image: url('/images/features-bg-mobile.jpg');
+  background-image: url('../images/features-bg-mobile.jpg');
 
   @media (min-width: 1920px) {
     padding: 207px 300px 267px 340px;
-    background-image: url('/images/features-bg-desktop.jpg');
+    background-image: url('../images/features-bg-desktop.jpg');
   }
 }
 
