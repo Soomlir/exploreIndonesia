@@ -9,7 +9,7 @@
     <div class="videos__video">
       <a class="videos__img-link" href="#!">
         <picture>
-          <source srcset="/images/videos-video-1-desktop.jpg" media="(min-width: 1920px)" width="1056" height="594">
+          <source srcset="/images/videos-video-1-desktop.jpg" media="(min-width: 1440px)" width="1056" height="594">
           <img class="videos__picture" src="/images/videos-video-1-mobile.jpg" width="314" height="192"
             alt="Обложка видео.">
         </picture>
@@ -43,9 +43,13 @@
   padding: 86px 30px 36px;
   background-image: url("../images/videos-bg-mobile.jpg");
 
+  @media (min-width: 1440px) {
+    padding: 146px 30px 135px;
+    background-image: url("../images/videos-bg-desktop.jpg");
+  }
+
   @media (min-width: 1920px) {
     padding: 146px 30px 221px;
-    background-image: url("../images/videos-bg-desktop.jpg");
   }
 }
 
@@ -58,10 +62,14 @@
   color: #ffffff;
   text-align: center;
 
-  @media (min-width: 1920px) {
-    width: 1007px;
+  @media (min-width: 1440px) {
     margin: 0 auto;
     margin-bottom: 113px;
+    width: 880px;
+  }
+
+  @media (min-width: 1920px) {
+    width: 1007px;
   }
 }
 
@@ -96,7 +104,7 @@
     background-repeat: no-repeat;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 1056px;
     margin: 0 auto;
 
@@ -116,7 +124,7 @@
   flex-direction: column;
   gap: 34px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     flex-direction: row;
     gap: 64px;
     width: 1223px;
@@ -128,7 +136,7 @@
 .videos__item-wrap {
   display: contents;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: block;
   }
 }
@@ -146,7 +154,7 @@
     background-image: url("../images/play-white.svg");
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: flex;
     gap: 42px;
 
@@ -165,7 +173,7 @@
     margin-bottom: 27px;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 233px;
     height: 151px;
   }
@@ -183,7 +191,7 @@
     margin-bottom: 19px;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     text-align: left;
   }
 }
@@ -195,7 +203,7 @@
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     text-align: left;
   }
 }

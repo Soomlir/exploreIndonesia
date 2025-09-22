@@ -41,7 +41,7 @@
   align-items: center;
   position: relative;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     flex-direction: row;
     padding: 36px 153px 31px 70px;
   }
@@ -68,7 +68,7 @@
     background-image: url("../images/arrow-up-mobile.svg");
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     top: -52px;
     right: 102px;
     display: none;
@@ -76,7 +76,7 @@
 }
 
 .footer__logo {
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     margin-right: 123px;
   }
 }
@@ -88,7 +88,7 @@
   gap: 36px;
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     flex-direction: row;
     margin: 0;
     margin-right: auto;
@@ -103,7 +103,7 @@
   text-decoration: none;
   color: #ffffff;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.5px;
@@ -115,7 +115,7 @@
   gap: 49px;
   margin-bottom: 36px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     margin-right: 48px;
     margin-bottom: 0;
     gap: 15px;
@@ -149,7 +149,7 @@
   color: #ffffff;
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 0;

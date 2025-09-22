@@ -55,7 +55,7 @@
   padding: 30px 30px 81px;
   background-color: #dce8f2;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding: 130px 353px 117px;
   }
 }
@@ -69,7 +69,7 @@
   font-weight: 700;
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     margin-bottom: 70px;
     text-align: left;
     margin-left: 36px;
@@ -84,7 +84,7 @@
   flex-direction: column;
   gap: 15px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 1100px;
     align-items: start;
     gap: 67px;
@@ -120,7 +120,7 @@
     line-height: 1;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding-top: 0;
     padding-left: 132px;
 
@@ -151,7 +151,7 @@
     margin-bottom: 14px;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     text-align: left;
     align-self: start;
     font-size: 27px;
@@ -180,17 +180,23 @@
     display: none;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     &--mobile {
       display: none;
     }
 
     &--desktop {
       display: block;
-      width: 1040px;
+      width: 900px;
       text-align: left;
       font-size: 24px;
       line-height: 38px;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    &--desktop {
+      width: 1040px;
     }
   }
 }
@@ -217,7 +223,7 @@
     background-image: url("../images/play-white.svg");
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: flex;
     align-items: flex-start;
     margin-top: 100px;
@@ -245,7 +251,7 @@
 .subblock {
   display: none;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: block;
   }
 }
@@ -272,7 +278,7 @@
 .plan__button {
   display: none;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: block;
     margin: 0;
     margin-top: 23px;

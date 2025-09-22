@@ -15,7 +15,7 @@
   padding: 171px 30px 116px;
   background-image: url("../images/nature-bg-mobile.jpg");
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding: 249px 30px 257px;
     background-image: url("../images/nature-bg-desktop.jpg");
   }

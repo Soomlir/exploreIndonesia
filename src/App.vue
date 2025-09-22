@@ -28,7 +28,7 @@ import FooterComponent from '@/components/FooterComponent.vue';
 .header-wrap {
   background-image: url("../images/header-bg-mobile.jpg");
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     background-image: url("../images/header-bg-desktop.jpg");
   }
 }

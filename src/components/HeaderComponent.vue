@@ -35,7 +35,7 @@
   display: flex;
   padding: 48px 34px 24px 24px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding: 28px 145px 39px 20px;
   }
 }
@@ -43,7 +43,7 @@
 .header__logo {
   margin-right: auto;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     margin: 0;
     margin-right: 42px;
   }
@@ -61,7 +61,7 @@
 .header__menu {
   display: none;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: flex;
     align-items: center;
     margin-right: auto;
@@ -103,10 +103,6 @@
     height: 2px;
     margin-bottom: 3px;
     background-color: #ffffff;
-  }
-
-  @media (min-width: 1920px) {
-    display: none;
   }
 }
 </style>

@@ -6,7 +6,7 @@
     <ul class="features__list">
       <li class="features__item">
         <picture>
-          <source srcset="/images/features-desktop-1.jpg" media="(min-width: 1900px)" width="630" height="460">
+          <source srcset="/images/features-desktop-1.jpg" media="(min-width: 1440px)" width="630" height="460">
           <img class="features__image" src="/images/features-mobile-1.jpg" width="314" height="232">
         </picture>
         <div class="features__item-wrap">
@@ -18,7 +18,7 @@
       </li>
       <li class="features__item">
         <picture>
-          <source srcset="/images/features-desktop-2.jpg" media="(min-width: 1900px)" width="630" height="460">
+          <source srcset="/images/features-desktop-2.jpg" media="(min-width: 1440px)" width="630" height="460">
           <img class="features__image features__image--second" src="/images/features-mobile-2.jpg" width="314"
             height="224">
         </picture>
@@ -40,9 +40,13 @@
   padding: 40px 30px 48px;
   background-image: url('../images/features-bg-mobile.jpg');
 
+  @media (min-width: 1440px) {
+    padding: 207px 246px 267px 200px;
+    background-image: url('../images/features-bg-desktop.jpg');
+  }
+
   @media (min-width: 1920px) {
     padding: 207px 300px 267px 340px;
-    background-image: url('../images/features-bg-desktop.jpg');
   }
 }
 
@@ -57,7 +61,7 @@
 }
 
 .features__item {
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: flex;
     gap: 130px;
 
@@ -70,7 +74,7 @@
 .features__item-wrap {
   display: contents;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: block;
     width: 480px;
     padding-top: 58px;

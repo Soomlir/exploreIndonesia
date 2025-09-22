@@ -40,7 +40,7 @@
 .promo {
   padding: 17px 0 38px 30px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding-top: 121px;
     padding-left: 276px;
     padding-bottom: 0;
@@ -56,6 +56,13 @@
   text-transform: uppercase;
   color: #ffffff;
 
+  @media (min-width: 1440px) {
+    margin-bottom: 25px;
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 900;
+  }
+
   @media (min-width: 1920px) {
     margin-bottom: 25px;
     font-size: 120px;
@@ -67,7 +74,7 @@
 .promo__desktop {
   display: none;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: block;
   }
 }
@@ -76,7 +83,7 @@
   margin-left: 0;
   margin-bottom: 54px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     margin: 0;
     width: 271px;
     height: 82px;
@@ -91,12 +98,13 @@
 .promo_vertical {
   display: none;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: flex;
     position: absolute;
     transform: rotate(-90deg);
     top: 492px;
-    left: -339px;
+
+    left: -242px;
 
     a {
       padding: 0 20px;
@@ -106,13 +114,23 @@
       color: #ffffff;
     }
   }
+
+  @media (min-width: 1920px) {
+    left: -339px;
+  }
 }
 
 .promo__progress-wrap {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  margin-left: 215px;
+  @media (min-width: 1440px) {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 86px;
+  }
+
+  @media (min-width: 1920px) {
+    margin-left: 215px;
+  }
 }
 
 .promo__number-one {
@@ -140,7 +158,7 @@
 .promo__wrap {
   display: contents;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: flex;
   }
 }
@@ -154,6 +172,17 @@
   background-color: rgba(0, 0, 0, 0.6);
   counter-reset: my-counter;
   box-sizing: border-box;
+
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    gap: 127px;
+    width: 946px;
+    height: 210px;
+    margin-top: 44px;
+    padding-left: 71px;
+    padding-top: 75px;
+    box-sizing: border-box;
+  }
 
   @media (min-width: 1920px) {
     flex-direction: row;

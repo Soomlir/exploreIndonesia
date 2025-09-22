@@ -10,37 +10,37 @@
     <div class="gallery__wrap">
       <a class="gallery__img gallery__img--1" href="#!">
         <picture>
-          <source srcset="/images/gallery-image-desktop-1.jpg" media="(min-width: 1920px)" width="370" height="530">
+          <source srcset="/images/gallery-image-desktop-1.jpg" media="(min-width: 1440px)" width="370" height="530">
           <img src="/images/gallery-image-mobile-1.jpg" width="151" height="217" alt="Изображение природы.">
         </picture>
       </a>
       <a class="gallery__img gallery__img--2" href="#!">
         <picture>
-          <source srcset="/images/gallery-image-desktop-2.jpg" media="(min-width: 1920px)" width="370" height="210">
+          <source srcset="/images/gallery-image-desktop-2.jpg" media="(min-width: 1440px)" width="370" height="210">
           <img src="/images/gallery-image-mobile-2.jpg" width="151" height="86" alt="Изображение природы.">
         </picture>
       </a>
       <a class="gallery__img gallery__img--3" href="#!">
         <picture>
-          <source srcset="/images/gallery-image-desktop-3.jpg" media="(min-width: 1920px)" width="370" height="210">
+          <source srcset="/images/gallery-image-desktop-3.jpg" media="(min-width: 1440px)" width="370" height="210">
           <img src="/images/gallery-image-mobile-3.jpg" width="150" height="153" alt="Изображение природы.">
         </picture>
       </a>
       <a class="gallery__img gallery__img--4" href="#!">
         <picture>
-          <source srcset="/images/gallery-image-desktop-4.jpg" media="(min-width: 1920px)" width="370" height="530">
+          <source srcset="/images/gallery-image-desktop-4.jpg" media="(min-width: 1440px)" width="370" height="530">
           <img src="/images/gallery-image-mobile-4.jpg" width="151" height="86" alt="Изображение природы.">
         </picture>
       </a>
       <a class="gallery__img gallery__img--5" href="#!">
         <picture>
-          <source srcset="/images/gallery-image-desktop-5.jpg" media="(min-width: 1920px)" width="370" height="370">
+          <source srcset="/images/gallery-image-desktop-5.jpg" media="(min-width: 1440px)" width="370" height="370">
           <img src="/images/gallery-image-mobile-5.jpg" width="151" height="217" alt="Изображение природы.">
         </picture>
       </a>
       <a class="gallery__img gallery__img--6" a href="#!">
         <picture>
-          <source srcset="/images/gallery-image-desktop-6.jpg" media="(min-width: 1920px)" width="370" height="370">
+          <source srcset="/images/gallery-image-desktop-6.jpg" media="(min-width: 1440px)" width="370" height="370">
           <img src="/images/gallery-image-mobile-6.jpg" width="150" height="153" alt="Изображение природы.">
         </picture>
       </a>
@@ -52,7 +52,7 @@
 .gallery {
   padding: 35px 30px 40px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding: 169px 30px 251px;
   }
 }
@@ -66,7 +66,7 @@
   text-align: center;
   color: #010a20;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     font-size: 61px;
     line-height: 68px;
     margin-bottom: 35px;
@@ -82,7 +82,7 @@
   text-align: center;
   font-family: "DM Sans", "Arial", sans-serif;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 470px;
     margin: 0 auto;
     margin-bottom: 69px;
@@ -95,7 +95,7 @@
   grid-template-rows: 87px 118px 84px 154px;
   gap: 13px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 1170px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 370px);
@@ -131,7 +131,7 @@
     grid-column: 2 / -1;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
 
     &--1,
     &--2,

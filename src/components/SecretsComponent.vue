@@ -78,9 +78,10 @@
   padding-top: 35px;
   background-image: url("../images/secrets-bg-mobile.jpg");
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding-top: 126px;
     background-image: url("../images/secrets-bg-desktop.jpg");
+    background-position: 50% 50%;
   }
 }
 
@@ -92,7 +93,7 @@
   color: #010a20;
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     margin-bottom: 43px;
     font-size: 50px;
     line-height: 55px;
@@ -103,17 +104,25 @@
   position: relative;
   padding-bottom: 700px;
 
+  @media (min-width: 1440px) {
+    padding-bottom: 1044px;
+  }
+
   @media (min-width: 1920px) {
     padding-bottom: 1030px;
   }
 }
 
 .secrets__slider {
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: flex;
     gap: 31px;
-    width: 1285px;
+    width: 996px;
     margin: 0 auto;
+  }
+
+  @media (min-width: 1920px) {
+    width: 1285px;
   }
 }
 
@@ -122,7 +131,7 @@
     display: none;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     display: block;
   }
 }
@@ -138,7 +147,7 @@
   background-repeat: no-repeat;
   cursor: pointer;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 15px;
     height: 24px;
     background-image: url('../images/arrow-left-desktop.svg');
@@ -148,6 +157,11 @@
 .slider__prev {
   top: 91px;
   left: 7px;
+
+  @media (min-width: 1440px) {
+
+    left: 140px;
+  }
 
   @media (min-width: 1920px) {
     top: 118px;
@@ -159,6 +173,10 @@
   top: 91px;
   right: 10px;
   transform: scale(-1);
+
+  @media (min-width: 1440px) {
+    right: 133px;
+  }
 
   @media (min-width: 1920px) {
     top: 118px;
@@ -177,7 +195,7 @@
   margin: 0 auto;
   margin-top: 16px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     margin-top: 29px;
     width: 215px;
   }
@@ -198,7 +216,7 @@
     border-radius: 60px;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 19px;
     height: 19px;
     margin: 0 8px;
@@ -212,7 +230,7 @@
 .stats {
   padding: 43px 30px 69px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     padding: 43px 30px 156px;
   }
 }
@@ -227,7 +245,7 @@
   font-family: "DM Sans", "Arial", sans-serif;
   color: #ffffff;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: auto;
     font-size: 60px;
     line-height: 70px;
@@ -243,7 +261,7 @@
   color: #e0e0e0;
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 490px;
     margin: 0 auto;
     margin-bottom: 60px;
@@ -257,7 +275,7 @@
   flex-direction: column;
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     flex-direction: row;
     margin: 0 auto;
     width: 1274px;
@@ -276,7 +294,7 @@
     margin-bottom: 0;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1440px) {
     width: 350px;
   }
 }
