@@ -8,6 +8,7 @@
 - bem
 - vue
 - typescript
+- vite
 
 Адаптивная верстка с использованием vue + vite + sass + bem.
 
